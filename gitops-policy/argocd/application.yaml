@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/jojimt/anchor.git
     targetRevision: main
-    path: gitops-policy/k8s
+    path: gitops-policy
   destination:
     server: https://kubernetes.default.svc
     namespace: openshell
