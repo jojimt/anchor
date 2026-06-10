@@ -28,3 +28,12 @@ network_policies:
     binaries:
       - { path: /usr/bin/curl }
       - { path: /usr/bin/gh }
+  google_api:
+    name: google-api
+    endpoints:
+      - host: googleapis.com
+        port: 443
+        protocol: rest
+        enforcement: enforce
+    binaries:
+      - { path: /usr/bin/curl }
