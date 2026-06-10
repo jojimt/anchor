@@ -37,3 +37,12 @@ network_policies:
         enforcement: enforce
     binaries:
       - { path: /usr/bin/curl }
+  wiki_api:
+    name: wiki-api
+    endpoints:
+      - host: wikipedia.com
+        port: 443
+        protocol: rest
+        enforcement: enforce
+    binaries:
+      - { path: /usr/bin/curl }
