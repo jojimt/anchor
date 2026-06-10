@@ -35,7 +35,7 @@ spec:
       restartPolicy: OnFailure
       containers:
         - name: sync
-          image: jojimt/openshell-policy-syncer:0.0.58
+          image: jojimt/openshell-policy-syncer:0.0.58-amd64
           imagePullPolicy: IfNotPresent
           env:
             - name: OPENSHELL_GATEWAY_ENDPOINT
